@@ -4,6 +4,8 @@ package arraylist;
 import java.util.* ;
 import javax.sound.midi.Soundbank;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 public class Mercado{ 
 
 public static void main(String args[]) { 
@@ -68,7 +70,9 @@ System.out.println(producto);
 // Eliminar todos los valores del ArrayList, Se eliminan todos los objetos mediante el método clear. 
 lista.clear(); 
 System.out.println(" Lista del mercado con " + lista.size() +" productos"); 
-
+System.out.println("Primera linea");
+double valor = 4*4*3.14;
+System.out.println("El valor de la variable es "+valor);
 }
 
-}
+} 
