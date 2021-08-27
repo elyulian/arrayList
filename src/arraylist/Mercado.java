@@ -51,6 +51,14 @@ Iterator it3 = lista.iterator();
 while(it3.hasNext()){
 Producto producto = (Producto) it3.next();
     System.out.println(producto);
+    System.out.println("El prodcuto elegido");
+    System.out.println("valor valor");
+    System.out.println("El prodcuto elegido");
+    System.out.println("valor valor");
+}
+System.out.println("El prodcuto elegido");
+    System.out.println("valor valor");
+}
 }
 
 
@@ -76,3 +84,4 @@ System.out.println("El valor de la variable es "+valor);
 }
 
 } 
+
