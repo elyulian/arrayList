@@ -15,7 +15,7 @@ cantidad = i;
 
 //método de la clase object
 public String toString(){ 
-return ("Nombre: "+nombre+" Cantidad: "+cantidad); 
+return ("Nombre: "+nombre+" Cantidad de cosas: "+cantidad); 
 } 
 
 public void setNombre(String nombre) { 
